@@ -38,16 +38,8 @@ v3.ext
 *.log
 .flooignore
 .floo
-/.next
-.next
 config.js
-jwtpw.js
-Archive.zip
-privatekey.pem
-csr.pem
-server.crt
-ssl.ca-bundle
-botapikey.js
+bundle.js
 
 #---------------------------------------#
 # IDEs & Editors Ignores                #

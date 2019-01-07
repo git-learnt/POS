@@ -1,0 +1,43 @@
+{
+  "name": "pos",
+  "version": "1.0.0",
+  "description": "git paid",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test",
+    "dev": "webpack -d --w",
+    "start": "nodemon server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/git-learnt/POS.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/git-learnt/POS/issues"
+  },
+  "homepage": "https://github.com/git-learnt/POS#readme",
+  "dependencies": {
+    "cors": "latest",
+    "express": "latest",
+    "react": "^16.7.0-alpha.2",
+    "react-dom": "^16.7.0-alpha.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "latest",
+    "@babel/core": "latest",
+    "@babel/preset-env": "latest",
+    "@babel/preset-react": "latest",
+    "babel-core": "latest",
+    "babel-loader": "latest",
+    "eslint": "latest",
+    "eslint-plugin-jsx-a11y": "latest",
+    "nodemon": "latest",
+    "webpack": "latest",
+    "webpack-cli": "latest"
+  }
+}
