@@ -12,6 +12,7 @@ v3.ext
 /.tmp
 /build
 /dist
+/public/bundle
 
 # dependencies
 /node_modules
