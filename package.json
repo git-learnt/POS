@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/git-learnt/POS#readme",
   "dependencies": {
+    "bootstrap": "^4.2.1",
     "cors": "latest",
     "express": "latest",
     "react": "^16.7.0-alpha.2",
