@@ -26,7 +26,8 @@
     "cors": "latest",
     "express": "latest",
     "react": "^16.7.0-alpha.2",
-    "react-dom": "^16.7.0-alpha.2"
+    "react-dom": "^16.7.0-alpha.2",
+    "styled-jsx": "^3.1.3"
   },
   "devDependencies": {
     "@babel/cli": "latest",
