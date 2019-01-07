@@ -1,1 +1,1 @@
-ecommerce website with POS intergration
+Ecommerce Website with POS intergration
