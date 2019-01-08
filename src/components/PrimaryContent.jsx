@@ -1,11 +1,11 @@
 import React from 'react';
 
 const PrimaryContent = () => (
-  <div>
+  <section className="storefront-product-section">
     <div className="home-page-primary-content">
       <div className="sph-inner-wrapper">
         <h1>
-          <span className="sph-1">Back to School</span>
+          <span className="sph-inner-main-msg">Back to School</span>
         </h1>
         <div className="sph-inner-wrapper-center">
           <p className="promotion-msg">
@@ -19,11 +19,15 @@ const PrimaryContent = () => (
     </div>
     <style jsx>
       {`
+        .storefront-product-section {
+          margin:0 10%;
+        }
         .home-page-primary-content {
           background-color: rgb(44, 45, 51);
           color: white;
           display: flex;
           justify-content: center;
+          padding: 8em 5em;
         }
         .sph-inner-wrapper {
         
@@ -32,10 +36,10 @@ const PrimaryContent = () => (
           display: flex;
           justify-content: center;
         }
-        .sph-1 {
+        .sph-inner-main-msg {
           background-color: #1c4e86;
           padding: 0.15em 0.6em;
-          font-size: 1.25em;
+          font-size: 1.75em;
         }
         .promotion-msg {
           background-color: #1c4e86;
@@ -55,10 +59,11 @@ const PrimaryContent = () => (
           border: 0;
           background-color: #fb3241;
           color: #ffffff;
+          cursor: pointer;
         } 
       `}
     </style>
-  </div>
+  </section>
 );
 
 export default PrimaryContent;
