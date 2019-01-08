@@ -34,13 +34,13 @@ const PrimaryContent = () => (
         }
         .sph-1 {
           background-color: #1c4e86;
-          padding: 0.35em;
+          padding: 0.15em 0.6em;
           font-size: 1.25em;
         }
         .promotion-msg {
           background-color: #1c4e86;
           font-size: 1.6em;
-          padding: 0.35em;
+          padding: .532em 1.063em;
         }
         .call-to-action {
           background-color: transparent;
