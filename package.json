@@ -7,7 +7,7 @@
     "test": "npm run test",
     "dev": "webpack -d --w",
     "start": "nodemon server/server.js",
-    "lint": "eslint src/**/*.js || src/**/*.jsx"
+    "lint": "eslint src/**/*.js src/**/*.jsx"
   },
   "repository": {
     "type": "git",
