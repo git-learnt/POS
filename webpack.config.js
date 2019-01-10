@@ -15,7 +15,7 @@ module.exports = {
     ],
   },
   resolve: {
-    extensions: [".js", ".jsx", ".json"] //when doing a require (./App), will check for file App cycling through the order of these extensions
+    extensions: ['.js', '.jsx', '.json'],
   },
   output: {
     filename: 'bundle.js',
