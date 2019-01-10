@@ -15,8 +15,8 @@ const ProductCategories = () => (
     <div>
       <ul className="products">
         {
-          img.map(imgUrl => (
-            <li>
+          img.map((imgUrl, i) => (
+            <li key={i.toString()}>
               <a href="/">
                 <img
                   src={imgUrl}
@@ -24,7 +24,7 @@ const ProductCategories = () => (
                   className="product-category-img"
                 />
                 <section className="category-title">
-                  <h2>
+                  <h2 className="test">
                     Art supplies
                   </h2>
                   {/* <mark>6</mark> */}
@@ -44,9 +44,15 @@ const ProductCategories = () => (
           text-align: center;
           margin-top: 2.25em;
         }
+        .products {
+          display: flex;
+          justify-content: space-between;
+          margin-right: 2em;
+        }
         .products > li {
           width: 30%;
           list-style: none;
+          position: relative;
         }
         .products > li > a {
           text-decoration: none;
@@ -58,11 +64,24 @@ const ProductCategories = () => (
           background: #1c4e86;
           text-align: center;
           color: white;
-      
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          bottom: auto;
+          transform: translate(-50%,-50%);
+          white-space: nowrap;
+          width: auto;
+          padding: 0 1em;
+          opacity: 0;
         }
         .category-title > h2 {
-          font-size: 0.8em;
+          font-size: 1.25em;
+          line-height: 0.25; 
         }
+        .products > li:hover {
+          opacity: 1;
+        }
+     
       `}
     </style>
   </section>
