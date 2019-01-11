@@ -46,13 +46,14 @@ const ProductCategories = () => (
         }
         .products {
           display: flex;
-          justify-content: space-between;
-          margin-right: 2em;
+          justify-content: center;
         }
         .products > li {
           width: 30%;
           list-style: none;
           position: relative;
+          max-width: 20em;
+          margin-right: 3em;
         }
         .products > li > a {
           text-decoration: none;
@@ -73,6 +74,7 @@ const ProductCategories = () => (
           width: auto;
           padding: 0 1em;
           opacity: 0;
+     
         }
         .category-title > h2 {
           font-size: 1.25em;
